@@ -55,6 +55,20 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
             ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/moneyConverterHome');
+              },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.black,
+              ),
+              child: const Text(
+                'Yvts',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
+            ),
           ],
         ),
       ),

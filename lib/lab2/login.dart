@@ -137,7 +137,7 @@ class Login extends StatelessWidget {
                     child: Text(
                       'Register',
                       style: TextStyle(
-                        color: Colors.blue, // Set text color to blue
+                        color: Colors.blue,
                       ),
                     ),
                   ),
