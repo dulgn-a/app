@@ -4,6 +4,7 @@ import './lab2/login.dart';
 import './lab2/signUp.dart';
 import 'home.dart';
 import 'yvts/moneyConverterHome.dart';
+import 'Uliral/Foods.dart';
 // import 'yvts/moneyConverter.dart';
 
 void main() {
@@ -19,6 +20,7 @@ void main() {
         '/login': (context) => const Login(),
         '/signUp': (context) => const SignUp(),
         '/moneyConverterHome': (context) => MoneyConverterHome(),
+        '/Foods': (context) => FoodsScreen(),
       },
     ),
   );

@@ -43,20 +43,6 @@ class HomeScreen extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () {
-                Navigator.pushNamed(context, '/login');
-              },
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.black,
-              ),
-              child: const Text(
-                'Lab 3',
-                style: TextStyle(
-                  color: Colors.white,
-                ),
-              ),
-            ),
-            ElevatedButton(
-              onPressed: () {
                 Navigator.pushNamed(context, '/moneyConverterHome');
               },
               style: ElevatedButton.styleFrom(
@@ -64,6 +50,20 @@ class HomeScreen extends StatelessWidget {
               ),
               child: const Text(
                 'Yvts',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/Foods');
+              },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.black,
+              ),
+              child: const Text(
+                'Ulirliin shalgalt',
                 style: TextStyle(
                   color: Colors.white,
                 ),
